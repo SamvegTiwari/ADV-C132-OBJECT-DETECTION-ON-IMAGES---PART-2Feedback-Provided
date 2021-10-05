@@ -1,0 +1,38 @@
+
+ 
+ 
+ 
+ 
+ .div_1{
+    width: 300px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    font-size: 30px;
+  }
+
+  @keyframes example {
+    from {top: 0px;}
+    to {top: 10px; background-color: blue;}
+    
+  }
+
+  .NODDY_H3{
+  font-size: 20px;  
+  box-shadow: 10px 10px 5px aquamarine;
+  }
+
+ #SONG_NAME{
+ box-shadow: 10px 10px 5px green;  
+ }
+
+ canvas{
+  box-shadow: 10px 10px 5px yellow, 15px 15px 5px blueviolet; 
+  border-radius: 20px;
+  width: 100px;
+  height: 100px;
+  
+ }
